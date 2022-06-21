@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<title>Shoes</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">	
+<link href="css/style.css" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="app">
+		
+		<section class="panel panel-left panel-cover">
+			
+			<div id="info-panel">
+				<div class="row">
+					
+					<article class="col-40">
+						<img src="img/user-image.jpg" class="img-fluid">
+					</article>
+					<article class="col-60">
+						<b>Staff User04</b><br>
+						Nivel 1
+					</article>
+				</div>
+				
+			</div>
+			
+			<div class="list media-list no-margin-top">
+ 			 	<ul>
+					<li>
+					  <a href="/home/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">store</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Productos</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content panel-close">
+						<div class="item-media"><i class="material-icons">favorite</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Lista de Deseados</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">bookmark</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Biblioteca</div>
+						</div>
+					  </a>
+					<a href="/checkout/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">shopping_cart</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Cartera</div>
+						</div>
+					  </a>	
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">people</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Amigos</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/sobre-staff/" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">help</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Soporte y F.A.Q</div>
+						</div>
+					  </a>
+					<a href="#" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">forum</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Comunidad</div>
+						</div>
+					  </a>
+					<a href="#" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">build</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Mods</div>
+						</div>
+					  </a>
+					<a href="#" class="item-link item-content">
+						<div class="item-media"><i class="material-icons">settings</i></div>
+						<div class="item-inner">
+						  <div class="item-title">Ajustes</div>
+						</div>
+					  </a>			
+					</li>
+  				</ul>
+			</div>
+		</section>
+		
+		
+		<div class="view view-main view-init">
+        
+			<section data-name="home" class="page">
+
+			  <!-- Top Navbar -->
+			  <nav class="navbar">
+				<div class="navbar-bg"></div>
+				<div class="navbar-inner">
+				  <div class="title" id="navbartitle">Productos</div>
+					<div class="right">
+						<a href="#" class="link panel-open" data-panel="left">
+							<i class="material-icons">menu</i>
+						</a>
+					</div>
+				</div>
+			  </nav>
+
+
+			  <section class="page-content" id="fondo-rojo">
+		<h2 class="block-title">Zapatos Nuevos</h2>
+		<div class="card card-expandable">
+		  <div class="card-content" id="catalogo">
+			<div style="height: 300px">
+			  <div><img src="img/71D9ImsvEtL._UY500_.jpg" class="img-fluid"> <h1>Red Shoes</h1>  </div>
+			  <a href="#" class="link card-close card-opened-fade-in color-white" style="position: absolute; right: 15px; top: 15px">
+				<i class="icon material-icons">cancel</i>
+			  </a>
+			</div>
+			<div class="card-content-padding">
+			  <a href="/checkout/" class="button button-fill btnverde">Checkout</a>
+			  <p class="button-fill btnoscuro">$100.99</p>
+			  <a href="#" class="button button-fill btngris">Añadir a la Lista de Deseados</a>
+			</div>
+		  </div>
+	</div>
+		
+		
+		<div class="card card-expandable">
+		  <div class="card-content" id="catalogo">
+			<div style="height: 300px">
+			  <div><img src="img/whiteshoe.jpeg" class="img-fluid"> <h1>Black Shoes</h1>  </div>
+			  <a href="#" class="link card-close card-opened-fade-in color-white" style="position: absolute; right: 15px; top: 15px">
+				<i class="icon material-icons">cancel</i>
+			  </a>
+			</div>
+			<div class="card-content-padding">
+			  <a href="/checkout/" class="button button-fill btnverde">Checkout</a>
+			 <p class="button-fill btnoscuro">$25.99</p>
+			  <a href="#" class="button button-fill btngris">Añadir a la Lista de Deseados</a>
+			</div>
+		  </div>
+		</div>
+		
+		
+		<section class="games-swiper" id="fondo-rojo">
+		
+		<div class="block">
+		    <h2 class="block-title">maletas</h2>
+			<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="20" data-slides-per-view="2" class="swiper-container swiper-init demo-swiper">
+  			<div class="swiper-pagination"></div>
+  				<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<a><img src="img/maleta.jpeg" class="img-fluid"></a>
+						</div>
+						<div class="swiper-slide">
+							<a><img src="img/maleta2.jpeg" class="img-fluid"></a>
+						</div>
+						<div class="swiper-slide">
+							<a><img src="img/maleta3.jpeg" class="img-fluid"></a>
+						</div>
+  				</div>
+			</div>
+		</div>	
+			
+		
+			
+	</section>
+	</section>
+
+			</section>
+		</div>
+		
+		
+		<div class="login-screen modal-in" id="modal-login">
+  <!-- Default view-page layout -->
+  <div class="view">
+    <div class="page login-screen-page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+        <h1>Shoes and Bags</h1>
+        <!-- Login form -->
+        <form id=form-login>
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Correo Electrónico</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username"  required>
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Contraseña</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password"  required>
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list block">
+            <ul>
+              <li>
+                <a href="#" class="button button-fill" id="btnLogin">Continuar</a>
+              </li>
+            </ul>
+            <div class="block-footer">
+				<a href="#" class="login-screen-open" data-login-screen="#modal-registro">Crear Cuenta</a></div>
+			  <div class="block-footer">
+				<a href="#">¿Olvidaste tu contraseña?</a></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div><!--Cierre de Log In Screen-->
+		
+		
+		<div class="login-screen" id="modal-registro">
+  <!-- Default view-page layout -->
+  <div class="">
+    <div class="page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+       <img src="img/staff-logo-text.png" class="img-fluid" alt="#">
+        <!-- Login form -->
+        <form id="form-registro">
+          <div class="list">
+            <ul>
+			<li class="item-content item-input">
+               <div class="item-inner">
+                 <div class="item-title item-label">Nombre</div>
+                 <div class="item-input-wrap">
+                   <input type="text" name="username"  required>
+                   <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Correo Electrónico</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username"  required>
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+				<li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Contraseña</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username"  required>
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label"> Confirmar Contraseña</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password"  required>
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list block">
+            <ul>
+              <li>
+                <a href="#" class="button button-fill">Registrarse</a>
+              </li>
+				<li>
+                <a href="#" class="button login-screen-close">Regresar</a>
+              	</li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div><!--Cierre de Registro-->
+		
+		
+	</div><!--Cierre de app-->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+	
+	
+</body>
+</html>

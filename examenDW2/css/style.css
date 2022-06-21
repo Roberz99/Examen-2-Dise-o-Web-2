@@ -1,0 +1,126 @@
+:root{
+ --f7-theme-color:#611910;
+ --f7-navbar-bg-color: #C53232; /*navbar*/
+--f7-navbar-link-color:#611910;	
+ --f7-navbar-text-color:#000;
+ --f7-bars-bg-color:#C53232;/*toolbar*/
+ --f7-block-margin-vertical:20px;
+ --f7-card-footer-border-color:transparent; 
+}
+#info-panel{
+	background-color:#C53232;
+	color:#fff;
+	padding: 40px 30px;
+}
+.panel i{
+	color:#123066;
+}
+.panel .list{
+	font-size: 14px;
+}
+
+#modal-login .page{
+	background-color: #fff;
+	padding: 15px;
+}
+#modal-login .page-content{
+	background-color: #fff;
+	border-radius: 15px;
+}
+#modal-login .item-input-wrap{
+	background-color: #fff;
+	border-radius: 15px;
+}
+#modal-login .item-label{
+	color: #611910;
+	text-transform: uppercase;
+}
+#modal-login .login-screen-open,.block-footer a{
+	color: #D3C2C2;
+	text-decoration: underline;
+}
+#modal-registro .page-content{
+	background-color: #fff;
+}
+#modal-registro .item-input-wrap{
+	background-color: #fff;
+	border-radius: 15px;
+}
+#modal-registro .item-label{
+	color: #611910;
+	text-transform: uppercase;
+}
+#btnLogin{
+	background-color: #fff;
+	border-radius: 20px;
+	text-transform: none;
+}
+.button-fill{
+	background-color: #fff;
+}
+#form-registro a{
+	text-transform: none;
+}
+.img-fluid{
+	max-width: 100%;
+	display: block;
+}
+.btnverde{
+	background-color: #35F24D;
+	color: #000;
+}
+.btnoscuro{
+	background-color: #504343;
+	color: #000;
+	text-align: center;
+}
+.btngris{
+	background-color: #838080;
+	color: #000;
+}
+#catalogo{
+	background-color: #fff;
+}
+#catalogo a{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#catalogo h1{
+	text-align: center;
+	padding-top: 18px;
+	font-size: 30px;
+	font-weight: 700;  
+}
+
+#fondo-rojo{
+	background-color:#fff;
+}
+#fondo-rojo h2{
+	color: #611910;
+	text-transform: uppercase;
+}
+#fondo-rojo p{
+	color: #000;
+	font-size: 20px;
+}
+#app .media-list{
+	background-color: #AE2828;
+	color:#CAB6B6;
+}
+#app a .item-inner .{
+	background-color: #AE2828;
+}
+#app i{
+	color:#CAB6B6;
+}
+#checkout{
+	background-color: #AE2828;
+}
+#checkout h2{
+	color: #611910;
+	text-transform: uppercase;
+}
+#checkout .row{
+	background-color: #B33F3F;
+}
